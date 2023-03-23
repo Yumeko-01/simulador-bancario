@@ -52,7 +52,7 @@ public class Simuladorbancario1 {
         System.out.println("Retiro de 700000 es " + ahorro.retirar(700000));
         System.out.println("Cuenta ahorros " + ahorro.toString());
         
-        
+        //abrir CDT
         System.out.println("Abrir CDT: " );
         
         cdt.abrirCDT(new Fecha(21,3,2023), 34000,2);
